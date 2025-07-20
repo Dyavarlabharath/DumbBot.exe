@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  background-color: #008080; /* Classic Windows 98 teal */
+  font-family: 'Press Start 2P', monospace;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: black;
+}
+
+.window {
+  background-color: #c3c3c3;
+  border: 3px solid black;
+  padding: 10px;
+  width: 420px;
+  box-shadow: 4px 4px black;
+}
+
+.title-bar {
+  background-color: navy;
+  color: white;
+  padding: 6px;
+  font-size: 12px;
+}
+
+.output {
+  background-color: white;
+  height: 100px;
+  padding: 8px;
+  margin: 10px 0;
+  overflow-y: auto;
+  border: 2px inset gray;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 4px;
+  font-family: monospace;
+  margin-bottom: 10px;
+}
+
+.buttons button {
+  padding: 6px 10px;
+  margin-right: 8px;
+  font-family: 'Press Start 2P', monospace;
+  font-size: 8px;
+  background-color: #e0e0e0;
+  border: 2px outset gray;
+  cursor: pointer;
+}
